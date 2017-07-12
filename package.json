@@ -1,0 +1,21 @@
+{
+  "name": "cart-js",
+  "version": "1.0.0",
+  "description": "Shopping Cart",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "cart"
+  ],
+  "author": "Michael G. Boateng <mgyan84@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "node-localstorage": "^1.3.0"
+  }
+}

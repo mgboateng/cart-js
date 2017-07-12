@@ -1,0 +1,12 @@
+{
+    "name": "mgboateng/cart-js",
+    "description": "Cart Package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Michael G. Boateng",
+            "email": "mgyan84@gmail.com"
+        }
+    ],
+    "require": {}
+}
