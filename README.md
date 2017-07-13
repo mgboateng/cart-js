@@ -3,7 +3,7 @@
 This package makes it easier to add and manage a shopping cart in JavaScript application. Logs are stored in localStorage.
 
 ## Installation
-To install require the Cart module and instantiate the class to use it as below:
+To install `npm install cart-js` and require the cart-js module. Instantiate the class to use it as below: `npm install cart-js` then
 
 ```JavaScript
 const Cart = require('cart-js');
