@@ -6,7 +6,7 @@ This package makes it easier to add and manage a shopping cart in JavaScript app
 To install require the Cart module and instantiate the class to use it as below:
 
 ```JavaScript
-const Cart = require('path to module/cart');
+const Cart = require('cart-js');
 
 let cart = new Cart();
 ```

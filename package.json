@@ -2,7 +2,7 @@
   "name": "cart-js",
   "version": "1.0.0",
   "description": "Shopping Cart",
-  "main": "index.js",
+  "main": "cart.js",
   "scripts": {
     "test": "mocha"
   },
