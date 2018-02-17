@@ -16,9 +16,10 @@ let cart = new Cart();
 
 ## Usage
 The package have the following requirement. Object acceptable to the Cart must
--   have an `id` field and must be unique
--   must have a quantity field of integer value,
--   must have a price field of float value
+
+- have an `id` field and must be unique
+- must have a quantity field of integer value,
+- must have a price field of float value
 
 To add item to cart:
 ```JavaScript
@@ -26,7 +27,7 @@ let cart = new Cart();
 cart.addItem({id: 1, product: "Baby food", price: 10, quantity: 4});
 ```
 
-To add item to retrieve all:
+To retrieve all items:
 ```JavaScript
 let result = cart.getAll();
 
