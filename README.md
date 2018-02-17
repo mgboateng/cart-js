@@ -20,7 +20,7 @@ The package have the following requirement. Object acceptable to the Cart must
 To add item to cart:
 ```JavaScript
 let cart = new Cart();
-cart.add({id: 1, product: "Baby food", price: 10, quantity: 4});
+cart.addItem({id: 1, product: "Baby food", price: 10, quantity: 4});
 ```
 
 To add item to retrieve all:
