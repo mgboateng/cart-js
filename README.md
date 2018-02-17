@@ -23,9 +23,8 @@ let cart = new Cart();
 cart.addItem({id: 1, product: "Baby food", price: 10, quantity: 4});
 ```
 
-To add item to retrieve all:
+To retrieve all items:
 ```JavaScript
-let cart = new Cart();
 let result = cart.getAll();
 
 //the above returns an object of
