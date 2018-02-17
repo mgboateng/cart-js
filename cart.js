@@ -160,7 +160,7 @@ class Cart {
 
         if (item.id == null) throw "id field is required";
 
-        let quantity = item.quantity != null ?  parseFloat(item.quantity) : 1;
+        let quantity = item.quantity != null ?  parseInt(item.quantity) : 1;
         item.quantity = quantity < 1 ? 1 : quantity;
 
         let price = item.price != null ? parseFloat(item.price) : parseFloat(0);
